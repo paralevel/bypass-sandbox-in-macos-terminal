@@ -1,4 +1,4 @@
-# Unfull Disk Access for Terminal
+# Useful Disk Access for Terminal
 
 If you for example get a `Could not write domain` error when using the `defaults` command or `Operation not permitted` when trying to access specific files or folders (related to file system areas that are sandboxed or under some kind of protection, instead of file permissions which would give a `permission denied` error), this is usually solved by giving Full Disk Access permission to Terminal ([see here](https://github.com/mathiasbynens/dotfiles/issues/820)), but if you want to avoid doing that just for a single file, you can instead use the following trick (the example is after a failed attempt at running `defaults write -app safari WBSNewTabPositionPreferenceKey -int 0`:
 
